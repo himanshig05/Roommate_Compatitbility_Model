@@ -5,7 +5,8 @@ from sklearn.metrics.pairwise import cosine_similarity
 
 app = Flask(__name__)
 
-# Preprocessing Function
+# Preprocessing Function()
+
 def preprocess(data):
     relevant_columns = [
         'Name', 'Gender', 'Year', 'Branch', 'Hosteller/Day scholar',
